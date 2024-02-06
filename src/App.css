@@ -19,6 +19,7 @@
 
 .slick-dots {
   bottom: -30px !important;
+  z-index: 30 !important;
 }
 
 .slick-dots {
