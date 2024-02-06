@@ -1,0 +1,14 @@
+.slick-dots li button:before {
+  content: '' !important;
+  background-color: transparent !important;
+  height: 14px !important;
+  width: 14px !important;
+  border: 1px solid black !important;
+  border-radius: 50% !important;
+  opacity: 1 !important;
+}
+
+.slick-dots li.slick-active button:before {
+  border: 1px solid #F59330 !important;
+  background-color: #F59330 !important;
+}
