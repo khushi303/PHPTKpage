@@ -5,20 +5,20 @@ const Footer = () => {
     return (
         <div>
             <div className=''>
-                <div className='container mx-auto 2xl:max-w-[1330px] xl:pt-[124px] 2xl:px-3 px-[22.5px] pt-[93px] sm:pb-[60px] pb-[21px]'>
+                <div data-aos="zoom-in-down" className='container mx-auto 2xl:max-w-[1330px] xl:pt-[124px] 2xl:px-3 px-[22.5px] pt-[107px] sm:pb-[60px] pb-[21px]'>
                     <div className='flex sm:gap-[21px] gap-[14px] justify-center items-center'>
-                        <div className='sm:w-[66.43px] sm:h-[66.43px] hover:bg-black transition-all duration-300 ease-linear w-[42px] h-[42px] rounded-[50%] flex items-center justify-center bg-[#797979]'>
+                        <a href='https://twitter.com/tweeter' target='blank' className='sm:w-[66.43px] sm:h-[66.43px] hover:bg-black transition-all duration-300 ease-linear w-[42px] h-[42px] rounded-[50%] flex items-center justify-center bg-[#797979]'>
                             <Tweet />
-                        </div>
-                        <div className='sm:w-[66.43px] sm:h-[66.43px] hover:bg-black transition-all duration-300 ease-linear w-[42px] h-[42px] rounded-[50%] flex items-center justify-center bg-[#797979]'>
+                        </a>
+                        <a href='https://www.facebook.com/' target='blank' className='sm:w-[66.43px] sm:h-[66.43px] hover:bg-black transition-all duration-300 ease-linear w-[42px] h-[42px] rounded-[50%] flex items-center justify-center bg-[#797979]'>
                             <Facebook />
-                        </div>
-                        <div className='sm:w-[66.43px] sm:h-[66.43px] hover:bg-black transition-all duration-300 ease-linear w-[42px] h-[42px] rounded-[50%] flex items-center justify-center bg-[#797979]'>
+                        </a>
+                        <a href='https://in.linkedin.com/' target='blank' className='sm:w-[66.43px] sm:h-[66.43px] hover:bg-black transition-all duration-300 ease-linear w-[42px] h-[42px] rounded-[50%] flex items-center justify-center bg-[#797979]'>
                             <LInkin />
-                        </div>
-                        <div className='sm:w-[66.43px] sm:h-[66.43px] hover:bg-black transition-all duration-300 ease-linear w-[42px] h-[42px] rounded-[50%] flex items-center justify-center bg-[#797979]'>
+                        </a>
+                        <a href='https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new' target='blank' className='sm:w-[66.43px] sm:h-[66.43px] hover:bg-black transition-all duration-300 ease-linear w-[42px] h-[42px] rounded-[50%] flex items-center justify-center bg-[#797979]'>
                             <Msg />
-                        </div>
+                        </a>
                     </div>
                     <div className='mt-[25px] flex flex-col lg:flex-row items-center justify-center lg:gap-[50px] sm:gap-[25px] gap-[15px]'>
                         <a href="" className='sm:text-[30px] text-[16px] font-bold text-[#F59330] leading-[151%]'>Code of Conduct</a>

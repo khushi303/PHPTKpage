@@ -6,7 +6,11 @@ module.exports = {
   theme: {
     extend: {
       backgroundSize: {
-        'FullSize': "100% 100%"
+        'FullSize': "100% 100%",
+        'FullSize2': "173% 100%"
+      },
+      backgroundPosition: {
+        'Lefttop': "27%"
       }
     },
   },
