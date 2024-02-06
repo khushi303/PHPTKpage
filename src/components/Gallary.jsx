@@ -39,22 +39,22 @@ const Gallary = () => {
             <div className='container mx-auto max-lg:block hidden px-[23.56px] pt-[39px]'>
                 <Slider {...settings}>
                     <div>
-                        <img src={Img1} alt="img1" className='w-full object-cover object-center md:max-h-[400px] max-h-[245px] h-full' />
+                        <img src={Img1} alt="img1" className='w-full object-cover object-center md:h-[400px] md:min-h-[400px] min-h-[245px] h-[245px] ' />
                     </div>
                     <div>
-                        <img src={Img2} alt="img1" className='w-full object-cover object-center md:max-h-[400px] max-h-[245px] h-full' />
+                        <img src={Img2} alt="img1" className='w-full object-cover object-center md:h-[400px] md:min-h-[400px] min-h-[245px]  h-[245px] ' />
                     </div>
                     <div>
-                        <img src={Img3} alt="img1" className='w-full object-cover object-center md:max-h-[400px] max-h-[245px] h-full' />
+                        <img src={Img3} alt="img1" className='w-full object-cover object-center md:h-[400px] md:min-h-[400px] min-h-[245px]  h-[245px] ' />
                     </div>
                     <div>
-                        <img src={Img4} alt="img1" className='w-full object-cover object-center md:max-h-[400px] max-h-[245px] h-full' />
+                        <img src={Img4} alt="img1" className='w-full object-cover object-center md:h-[400px] md:min-h-[400px] min-h-[245px]  h-[245px] ' />
                     </div>
                     <div>
-                        <img src={Img5} alt="img1" className='w-full object-cover object-center md:max-h-[400px] min-h-[245px] md:h-full' />
+                        <img src={Img5} alt="img1" className='w-full object-cover object-center md:h-[400px] md:min-h-[400px] min-h-[245px]  h-[245px]' />
                     </div>
                     <div>
-                        <img src={Img6} alt="img1" className='w-full object-cover object-center md:max-h-[400px] min-h-[245px] md:h-full' />
+                        <img src={Img6} alt="img1" className='w-full object-cover object-center md:h-[400px] md:min-h-[400px] min-h-[245px]  h-[245px]' />
                     </div>
                 </Slider>
             </div>
