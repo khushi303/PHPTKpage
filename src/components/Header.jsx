@@ -18,7 +18,7 @@ const Header = () => {
         <div className='relative overflow-hidden'>
             <div className='container mx-auto 2xl:max-w-[1638px] 2xl:px-3 pr-[21.93px] pl-[25.18px] 2xl:pt-[121px] sm:pt-[25px] 2xl:mb-[47px] pt-[9px] mb-[28px] z-20 relative'>
                 <div className='flex items-center 2xl:justify-end justify-between relative'>
-                    <img data-aos="fade-up" src={Logo} alt="Logo" className='2xl:max-w-[301px] lg:max-w-[150px] sm:max-w-[100px] max-w-[52px] w-full 2xl:absolute left-0 top-[-75px] z-[4]' />
+                    <img data-aos="fade-up" src={Logo} alt="Logo" className='2xl:max-w-[301px] cursor-pointer lg:max-w-[150px] sm:max-w-[100px] max-w-[52px] w-full 2xl:absolute left-0 top-[-75px] z-[4]' />
                     <div className={`${nav ? "left-[-101%]" : "left-0"} flex max-xl:fixed max-xl:top-0 max-xl:transition-all max-xl:duration-300 max-xl:ease-linear max-xl:h-full max-xl:z-20 max-xl:w-full max-xl:min-h-screen max-xl:bg-white max-xl:flex-col max-xl:justify-center items-center gap-[40.56px]`}>
                         <ul className='flex xl:flex-row flex-col items-center xl:gap-[72px] gap-[40.56px]'>
                             <li onClick={() => setNav(!nav)}><a href="#SEHEDULE" className='text-[24px] font-normal text-[#1A1A1A] !leading-[36px] after:absolute after:bottom-[-4px] after:left-[50%] after:w-0 after:bg-[#1A1A1A] after:h-[2px] hover:after:w-full relative after:right-0 hover:after:left-0 after:transition-all after:duration-300 after:rounded-[5px] after:ease-linear'>SEHEDULE</a></li>
