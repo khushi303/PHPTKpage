@@ -28,10 +28,10 @@ const Header = () => {
                         </ul>
                         <button className='sm:py-[13px] py-[11px] sm:px-[63.5px] px-[50px] bg-[#EE612F] border-[2px] border-solid border-[#EE612F] hover:border-white rounded-[50px] text-[24px] leading-[36px] text-[#F0F0F0] hover:bg-transparent transition-all duration-300 ease-linear whitespace-nowrap'>REGISTER NOW</button>
                     </div>
-                    <div onClick={() => setNav(!nav)} className='xl:hidden w-[27px] max-xl:z-20 h-[21px] relative z-[7] flex justify-between flex-col'>
-                        <svg className='w-[28px] h-[18px] sm:w-[35px] sm:h-[35px]' viewBox="0 0 28 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path className={nav ? "fill-[white]" : "fill-[#EE612F]"} d="M0.854492 18.0067V15.0339H27.6097V18.0067H0.854492ZM0.854492 10.5747V7.60192H27.6097V10.5747H0.854492ZM0.854492 3.14272V0.169922H27.6097V3.14272H0.854492Z" fill="white" />
-                        </svg>
+                    <div onClick={() => setNav(!nav)} className='lg:hidden w-[27px] h-[18px] relative z-20 flex justify-between flex-col'>
+                        <span className={`${nav ? 'bg-white h-[3px] w-full duration-300 ease-linear transition-all' : "bg-[#EE612F] transition-all duration-300 ease-linear h-[3px] w-full rotate-[50deg] translate-y-[13px]"}`}></span>
+                        <span className={`${nav ? 'bg-white h-[3px] w-full duration-300 ease-linear transition-all' : "duration-300 ease-linear transition-all hidden"}`}></span>
+                        <span className={`${nav ? 'bg-white h-[3px] w-full duration-300 ease-linear transition-all' : "bg-[#EE612F] transition-all duration-300 ease-linear h-[3px] w-full rotate-[-50deg] translate-y-[-50%]"}`}></span>
                     </div>
                 </div>
             </div>

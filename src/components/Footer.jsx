@@ -21,9 +21,9 @@ const Footer = () => {
                         </a>
                     </div>
                     <div className='mt-[25px] flex flex-col lg:flex-row items-center justify-center lg:gap-[50px] sm:gap-[25px] gap-[15px]'>
-                        <a href="" className='sm:text-[30px] text-[16px] font-bold text-[#F59330] leading-[151%]'>Code of Conduct</a>
-                        <a href="" className='sm:text-[30px] text-[16px] font-bold text-[#F59330] leading-[151%]'>Privacy Policy</a>
-                        <a href="" className='sm:text-[30px] text-[16px] font-bold text-[#F59330] leading-[151%]'>Refund Policy</a>
+                        <a href="" className='sm:text-[30px] text-[16px] font-bold text-[#F59330] leading-[151%] after:absolute after:bottom-[-4px] after:left-[50%] after:w-0 after:bg-[#F59330] after:h-[3px] hover:after:w-full relative after:right-0 hover:after:left-0 after:transition-all after:duration-300 after:rounded-[5px] after:ease-linear'>Code of Conduct</a>
+                        <a href="" className='sm:text-[30px] text-[16px] font-bold text-[#F59330] leading-[151%] after:absolute after:bottom-[-4px] after:left-[50%] after:w-0 after:bg-[#F59330] after:h-[3px] hover:after:w-full relative after:right-0 hover:after:left-0 after:transition-all after:duration-300 after:rounded-[5px] after:ease-linear'>Privacy Policy</a>
+                        <a href="" className='sm:text-[30px] text-[16px] font-bold text-[#F59330] leading-[151%] after:absolute after:bottom-[-4px] after:left-[50%] after:w-0 after:bg-[#F59330] after:h-[3px] hover:after:w-full relative after:right-0 hover:after:left-0 after:transition-all after:duration-300 after:rounded-[5px] after:ease-linear'>Refund Policy</a>
                     </div>
                     <p className='text-center mt-[25px] sm:text-[30px] text-[16px] cursor-pointer font-normal text-[#26221D] leading-[151%]'>© 2024 PHP Architect, LLC</p>
                 </div>
